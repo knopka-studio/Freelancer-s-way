@@ -466,9 +466,6 @@ img {
     padding-top: 74px;
     padding-bottom: 80px;
   }
-  .hero-container {
-    justify-content: center;
-  }
   .image-block {
     max-width: 300px;
   }
@@ -532,6 +529,25 @@ img {
   }
 }
 
+@media (max-width: 813px) {
+  .header-box,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 750px;
+  }
+  .button-primary {
+    padding: 15px 40px 13px 40px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .button-outline {
+    padding: 14px 42px 14px 42px;
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 768px) {
   .header-box,
   .hero-container,
@@ -573,6 +589,14 @@ img {
   }
   .requisits {
     margin-bottom: 60px;
+  }
+  .button-primary {
+    padding: 19px 40px 17px 44px;
+    font-size: 16px;
+  }
+  .button-outline {
+    padding: 18px 50px 18px 54px;
+    font-size: 16px;
   }
 }
 
@@ -671,6 +695,12 @@ img {
   }
   .information {
     margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 406px) {
+  .about-author {
+    padding: 55px 50px 69px 45px;
   }
 }
 
